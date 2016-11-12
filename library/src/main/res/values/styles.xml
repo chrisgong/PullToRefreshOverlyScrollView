@@ -1,0 +1,11 @@
+<resources>
+    
+    <style name="PullRefreshProgressBarStyle" >
+		<item name="android:indeterminateDrawable">@drawable/pullrefresh_pb_drawable</item>
+		<item name="android:minWidth">25dp</item>
+		<item name="android:maxWidth">25dp</item>
+		<item name="android:minHeight">25dp</item>
+		<item name="android:maxHeight">25dp</item>
+	</style>
+    
+</resources>

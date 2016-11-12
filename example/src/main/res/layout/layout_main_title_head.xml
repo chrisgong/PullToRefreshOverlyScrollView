@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/titlebar_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="12dip"
+    android:paddingLeft="6dip"
+    android:paddingRight="12dip"
+    android:paddingTop="12dp" >
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:src="@drawable/me_icon" />
+
+    <LinearLayout
+        android:id="@+id/main_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/main_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Fiona Liu"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/main_declaration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="您已经7天没有更新健康状态。更好的更新身体情况，请开始测量"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp" >
+
+            <Button
+                android:id="@+id/main_start_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dip"
+                android:layout_weight="5"
+                android:background="@drawable/selector_button5"
+                android:gravity="center"
+                android:text="开始测量"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/main_cancle_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dip"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:gravity="center"
+                android:text="暂停"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

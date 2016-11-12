@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main_content_other"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg1_light_white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_main_content_realtime_data" />
+
+    <include layout="@layout/layout_main_content_heartrate" />
+
+    <include layout="@layout/layout_main_content_interval" />
+
+    <include layout="@layout/layout_main_content_sport" />
+
+    <include layout="@layout/layout_main_content_interval" />
+
+    <include layout="@layout/layout_main_content_sleep" />
+
+    <include layout="@layout/layout_main_content_interval" />
+
+    <include layout="@layout/layout_main_content_temperature" />
+
+    <include layout="@layout/layout_main_content_interval" />
+
+    <include layout="@layout/layout_main_content_blood" />
+
+    <include layout="@layout/layout_main_content_interval" />
+
+</LinearLayout>

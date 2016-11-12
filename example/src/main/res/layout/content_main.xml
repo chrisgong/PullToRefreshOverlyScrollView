@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e95cb"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/main_title"
+        layout="@layout/layout_main_title"/>
+
+    <com.gcblog.pulltorefreshoverlyscrollview.library.PullToRefreshOverlyScrollView
+        android:id="@+id/pull_refresh_condition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_main_head"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/main_header"
+                    layout="@layout/layout_main_title_head"/>
+
+                <include
+                    layout="@layout/layout_error_tip"/>
+            </LinearLayout>
+
+            <com.gcblog.pulltorefreshoverlyscrollview.library.PullToRefreshScrollView
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ptr_main"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ptr:ptrAnimationStyle="flip"
+                ptr:ptrDrawable="@drawable/icon_refresh"
+                ptr:ptrMode="pullFromStart">
+
+                <include layout="@layout/layout_main_content"/>
+            </com.gcblog.pulltorefreshoverlyscrollview.library.PullToRefreshScrollView>
+        </LinearLayout>
+    </com.gcblog.pulltorefreshoverlyscrollview.library.PullToRefreshOverlyScrollView>
+
+</LinearLayout>

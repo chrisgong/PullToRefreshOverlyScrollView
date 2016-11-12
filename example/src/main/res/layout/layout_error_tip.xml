@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_tip_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="38dip"
+    android:background="@drawable/no_data_warning_bar_bg" 
+    android:visibility="gone">
+
+    <ImageButton
+        android:id="@+id/cancel_error_tip"
+        android:layout_width="38dip"
+        android:layout_height="38dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dip"
+        android:background="@null"
+        android:src="@drawable/cancel_no_data_layout" />
+
+    <TextView
+        android:id="@+id/error_tip_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@+id/cancel_error_tip"
+        android:drawableLeft="@drawable/error"
+        android:drawablePadding="10dip"
+        android:text="网络连接不可用，本次数据将只能在本手机查看"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textSize="12sp" >
+    </TextView>
+
+</RelativeLayout>

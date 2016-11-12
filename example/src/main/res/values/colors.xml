@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 字体颜色表 -->
+
+    <color name="transparent_red">#ddffee22</color>
+    <color name="font1_blak">#506173</color>
+    <color name="font2_gray">#808c99</color>
+    <color name="font3_sky_blue">#35ace4</color>
+    <color name="font4_white">#ffffff</color>
+    <color name="font4_white80">#ccffffff</color>
+    <color name="font4_white90">#e6ffffff</color>
+    <color name="font4_white50">#80ffffff</color>
+    <color name="font4_white40">#66ffffff</color>
+    <color name="font3_white40">#6635ace4</color>
+    <color name="font3_white41">#35ace4</color>
+    <color name="font5_light_gray">#bcc1c6</color>
+    <color name="font6_light_red">#ef709d</color>
+    <color name="font7_green">#28c44d</color>
+    <color name="font8_yellow">#e7b900</color>
+    <color name="font9_red">#ec4342</color>
+    <color name="font9_red2">#e52e2e</color>
+    <color name="black">#000000</color>
+    <color name="bg_light_gray">#e6bcc1c6</color>
+    <color name="blue_dark">#ff2e95cb</color>
+    <color name="blue_light">#ff45b2e5</color>
+    <color name="blue_alpha">#6645b2e5</color>
+    <color name="drawer_item_pressed">#132f49</color>
+    <color name="orange">#fffdad22</color>
+    <color name="green">#85d980</color>
+    <color name="font_sport1">#28c44d</color>
+    <color name="font_sport2">#ffcc00</color>
+    <color name="font_sport3">#f57574</color>
+
+    <color name="font_sleep1">#0A62A0</color>
+    <color name="font_sleep2">#37B0E9</color>
+    <color name="font_sleep3">#86E6FA</color>
+    <!-- 背景颜色表 -->
+    <color name="bg1_light_white">#f9fbfc</color>
+    <color name="bg2_white">#ffffff</color>
+    <color name="bg2_gray_line">#eaeaea</color>
+    <color name="bg2_sky_blue">#ebf7fd</color>
+
+
+    <!-- 线条颜色表 -->
+    <color name="line1_light_white">#eef4f8</color>
+    <color name="line2_white">#ffffff</color>
+    <color name="line3_light_gray">#e0e1e2</color>
+
+    <!-- 二维码扫描颜色值 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!--  日历颜色 -->
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <color name="caldroid_font">#283E56</color>
+</resources>

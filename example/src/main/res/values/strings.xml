@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PullToRefreshOverlyScrollView</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="health_condition">健康状况</string>
+    <string name="my_bp_trend">我的血压趋势</string>
+    <string name="my_realtime_date">实时健康数据</string>
+    <string name="sleep_enough">睡眠充足</string>
+    <string name="my_sleep_analysis">我的睡眠分析</string>
+    <string name="my_sport_analysis">我的运动分析</string>
+</resources>
