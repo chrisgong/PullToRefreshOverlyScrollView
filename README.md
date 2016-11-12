@@ -4,5 +4,5 @@
 
 效果图
 
-![](qqq.gif)
+![](http://7xs2xr.com1.z0.glb.clouddn.com/Kapture%202016-11-12%20at%2016.47.57.gif)
 
