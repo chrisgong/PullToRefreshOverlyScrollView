@@ -4,5 +4,5 @@
 
 效果图
 
-![](http://7xs2xr.com1.z0.glb.clouddn.com/qqq.gif)
+![](qqq.gif)
 
